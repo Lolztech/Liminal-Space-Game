@@ -7527,9 +7527,9 @@ MonoBehaviour:
   PlayerPrefab: {fileID: 4637868838165244246, guid: 334ae8518513f40d9ad4dd40de59adbe, type: 3}
   EnemyPrefab: {fileID: 7700570454702964828, guid: 0759bf6af94a3d74287a6b77853aef87, type: 3}
   PremadeRoomPrefabs:
-  - RoomSize: {x: 3, y: 1}
+  - RoomSize: {x: 1, y: 3}
     Prefab: {fileID: 4683230734785518128, guid: 5a50d2f3cef53db4781d29f4bb79b7af, type: 3}
-  - RoomSize: {x: 3, y: 4}
+  - RoomSize: {x: 4, y: 3}
     Prefab: {fileID: 4301583570072907803, guid: 7a7b880f79b2ca9478b9239bc30e01d2, type: 3}
 --- !u!4 &1576173929
 Transform:
