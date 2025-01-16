@@ -85,9 +85,9 @@ public class DupePlayerMovement : MonoBehaviour
         StateHandler();
 
         if (grounded)
-            {rb.drag = groundDrag;}
+            {rb.linearDamping = groundDrag;}
         else
-            {rb.drag = 0;}
+            {rb.linearDamping = 0;}
     }
 
 
@@ -173,19 +173,19 @@ public class DupePlayerMovement : MonoBehaviour
         {
             rb.AddForce(GetSlopeMoveDirection() * moveSpeed * 50f, ForceMode.Force);
 
-            if (rb.velocity.y > 0){
+            if (rb.linearVelocity.y > 0){
                 rb.AddForce(Vector3.down * 80f, ForceMode.Force);}
 
             float slopeAngle = Vector3.Angle(Vector3.up, slopeHit.normal);
-            rb.drag = Mathf.Lerp(groundDrag, 5f, slopeAngle / maxSlopeAngle);
+            rb.linearDamping = Mathf.Lerp(groundDrag, 5f, slopeAngle / maxSlopeAngle);
         }
 
         else if(grounded){
-            rb.drag = groundDrag;
+            rb.linearDamping = groundDrag;
             rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);}
 
         else if(!grounded){
-            rb.drag = 0f;
+            rb.linearDamping = 0f;
             rb.AddForce(moveDirection.normalized * moveSpeed * 10f * airMultiplier, ForceMode.Force);}
     }
 
@@ -196,18 +196,18 @@ public class DupePlayerMovement : MonoBehaviour
     {
         if (OnSlope() && !exitingSlope)
         {
-            if (rb.velocity.magnitude > moveSpeed){
-                rb.velocity = rb.velocity.normalized * moveSpeed;}
+            if (rb.linearVelocity.magnitude > moveSpeed){
+                rb.linearVelocity = rb.linearVelocity.normalized * moveSpeed;}
         }
 
         else
         {
-            Vector3 flatVel = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
+            Vector3 flatVel = new Vector3(rb.linearVelocity.x, 0f, rb.linearVelocity.z);
 
             if (flatVel.magnitude > moveSpeed)
             {
                 Vector3 limitedVel = flatVel.normalized * moveSpeed;
-                rb.velocity = new Vector3(limitedVel.x, rb.velocity.y, limitedVel.z);
+                rb.linearVelocity = new Vector3(limitedVel.x, rb.linearVelocity.y, limitedVel.z);
             }
         }
     }
@@ -218,7 +218,7 @@ public class DupePlayerMovement : MonoBehaviour
     private void Jump()
     {
         exitingSlope = true;
-        rb.velocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
+        rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0f, rb.linearVelocity.z);
         rb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
     }
 

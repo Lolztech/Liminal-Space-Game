@@ -268,8 +268,8 @@ public class EnemyAI : MonoBehaviour
             agent.acceleration = 0;
             agent.velocity = new Vector3(0,0,0);
             agent.isStopped = true;
-            rb.drag = 9999;
-            rb.angularDrag = 9999;
+            rb.linearDamping = 9999;
+            rb.angularDamping = 9999;
             //print("should be 0 ->" + agent.velocity);
         }
         //resumes movement if not
@@ -280,8 +280,8 @@ public class EnemyAI : MonoBehaviour
             agent.angularSpeed = 120;
             agent.acceleration = 2;
             agent.isStopped = false;
-            rb.drag = 0;
-            rb.angularDrag = 0.5f;
+            rb.linearDamping = 0;
+            rb.angularDamping = 0.5f;
 
         }
         //Check for sight and attack range
