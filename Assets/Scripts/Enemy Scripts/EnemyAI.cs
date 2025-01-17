@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.UIElements;
 using Random = UnityEngine.Random;
 
 /// adapted from https://youtu.be/UjkSFoLxesw
@@ -39,6 +40,7 @@ public class EnemyAI : MonoBehaviour
     [Header("Attack attributes")]
     [SerializeField] private float timeBetweenAttacks;
     [SerializeField] private float attackDamage;
+    [SerializeField] private AudioClip attackSoundClip;
     private bool alreadyAttacked;
 
     //State Attributes
@@ -180,6 +182,9 @@ public class EnemyAI : MonoBehaviour
         agent.speed = 0;
 
         transform.LookAt(player);
+
+        // Play attack sound
+        SoundFXManager.instance.PlaySoundFXClip(attackSoundClip, transform, 1f);
 
         if (!alreadyAttacked)
         {

@@ -64,6 +64,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -193,6 +196,7 @@ MonoBehaviour:
   waitTime: 2
   timeBetweenAttacks: 0
   attackDamage: 0
+  attackSoundClip: {fileID: 8300000, guid: 1b9de6dd4f7dc384dabb77c516f5634f, type: 3}
   sightRange: 5
   attackRange: 0.1
   FOVAngle: 90
