@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class SliderYChange : MonoBehaviour
+public class SliderMasterVolumeChange : MonoBehaviour
 {
     public Slider slider;
     public TextMeshProUGUI sliderText;
@@ -12,9 +12,10 @@ public class SliderYChange : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (GeneralSettings.Instance != null){
-            slider.value = GeneralSettings.Instance.sensY;
-        }        
+        if (GeneralSettings.Instance != null)
+        {
+            slider.value = GeneralSettings.Instance.masterVolume;
+        }
     }
 
     // Update is called once per frame

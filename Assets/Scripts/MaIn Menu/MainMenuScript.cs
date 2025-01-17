@@ -25,13 +25,20 @@ public class MainMenuScript : MonoBehaviour
     TMP_InputField enemyRoomCountInputField;
     [SerializeField]
     TMP_InputField itemRoomCountInputField;
+    // Mouse settings
     [SerializeField]
     Slider mouseXSlider;
-
     [SerializeField]
     Slider mouseYSlider;
+    // Audio settings
+    [SerializeField]
+    Slider masterVolumeSlider;
+    [SerializeField]
+    Slider musicVolumeSlider;
+    [SerializeField]
+    Slider sfxVolumeSlider;
 
-    //navigate menuee
+    //navigate menus
     public void MainMenu(){
         MainMenuPanel.SetActive(true);
         PlayGamePanel.SetActive(false);
@@ -105,8 +112,14 @@ public class MainMenuScript : MonoBehaviour
 
     public void StoreGeneralSettings(){
         if (GeneralSettings.Instance != null){
+            // Mouse settings
             GeneralSettings.Instance.sensX = mouseXSlider.value;
             GeneralSettings.Instance.sensY = mouseYSlider.value;
+            // Audio settings
+            GeneralSettings.Instance.masterVolume = masterVolumeSlider.value;
+            GeneralSettings.Instance.musicVolume = musicVolumeSlider.value;
+            GeneralSettings.Instance.sfxVolume = sfxVolumeSlider.value;
+
         }
     }
 
