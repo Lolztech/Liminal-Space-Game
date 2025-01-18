@@ -164,20 +164,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   seed: 0
-  size: {x: 100, y: 100}
-  roomCount: 100
-  roomMaxSize: {x: 7, y: 7}
+  size: {x: 70, y: 70}
+  roomCount: 300
+  roomMaxSize: {x: 6, y: 6}
   RoomPrefab: {fileID: 4907469481428772007, guid: b825f2c1cf4eefb4a893d41ddd58c429, type: 3}
   HallwayPrefab: {fileID: 4844219089626658800, guid: 2a6cef81b6f9d8f44af8430ef73d3908, type: 3}
   SpecialRooms:
-  - RoomName: TestRoom
-    Prefab: {fileID: 1827777094058327386, guid: 298e9c96871e9411e9124b1c50494b4a, type: 3}
-    RoomSize: {x: 2, y: 2}
-    RoomCount: 10
-  - RoomName: TestRoom2
-    Prefab: {fileID: 7344207298425459932, guid: 8d489c78742de4858ae25bdf57194d24, type: 3}
-    RoomSize: {x: 2, y: 4}
-    RoomCount: 10
+  - RoomName: Starter Room
+    Prefab: {fileID: 523497346010267984, guid: 31d64330e91394ef999621514ed936c6, type: 3}
+    RoomSize: {x: 6, y: 6}
+    RoomCount: 1
+  - RoomName: Victory Room
+    Prefab: {fileID: 523497346010267984, guid: 59e75e42d263f477b808d411e2d8bb34, type: 3}
+    RoomSize: {x: 6, y: 6}
+    RoomCount: 1
+  - RoomName: Item Room
+    Prefab: {fileID: 523497346010267984, guid: 7e3c5f619924e4bb2b38b17f5d67a9e3, type: 3}
+    RoomSize: {x: 6, y: 6}
+    RoomCount: 5
+  - RoomName: Enemy Room
+    Prefab: {fileID: 523497346010267984, guid: d672b6e40869341ab8338a0e305f3137, type: 3}
+    RoomSize: {x: 1, y: 1}
+    RoomCount: 20
   PremadeRoomPrefabs:
   - RoomSize: {x: 4, y: 3}
     Prefab: {fileID: 4301583570072907803, guid: 7a7b880f79b2ca9478b9239bc30e01d2, type: 3}
