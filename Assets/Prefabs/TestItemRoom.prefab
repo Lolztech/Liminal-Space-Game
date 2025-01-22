@@ -76,6 +76,7 @@ GameObject:
   - component: {fileID: 1065332537334720741}
   - component: {fileID: 7112015320178702736}
   - component: {fileID: 7273811349068206041}
+  - component: {fileID: 5171975257409271303}
   m_Layer: 10
   m_Name: NXWall
   m_TagString: Wall
@@ -172,6 +173,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5171975257409271303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118559361861362242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb8d6900da060e5428ca1515786a3790, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overlapCheckRadius: 0.1
 --- !u!1 &140939236813102978
 GameObject:
   m_ObjectHideFlags: 0
@@ -420,6 +434,7 @@ GameObject:
   - component: {fileID: 6479515948419353179}
   - component: {fileID: 9078221790196822772}
   - component: {fileID: 5373744323563125844}
+  - component: {fileID: 4677335859293957022}
   m_Layer: 10
   m_Name: NXWall
   m_TagString: Wall
@@ -516,6 +531,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4677335859293957022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350817472349773069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb8d6900da060e5428ca1515786a3790, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overlapCheckRadius: 0.1
 --- !u!1 &355683944384790422
 GameObject:
   m_ObjectHideFlags: 0
@@ -832,6 +860,7 @@ GameObject:
   - component: {fileID: 4981909797306270367}
   - component: {fileID: 642662200296814974}
   - component: {fileID: 6943325539928812836}
+  - component: {fileID: 4022513029207949719}
   m_Layer: 10
   m_Name: NZWall
   m_TagString: Wall
@@ -928,6 +957,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4022513029207949719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608302139670344138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb8d6900da060e5428ca1515786a3790, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overlapCheckRadius: 0.1
 --- !u!1 &609887310989033872
 GameObject:
   m_ObjectHideFlags: 0
@@ -972,6 +1014,7 @@ GameObject:
   - component: {fileID: 4573276797393976170}
   - component: {fileID: 7437302352043737082}
   - component: {fileID: 3428064784824958769}
+  - component: {fileID: 5419950762903727907}
   m_Layer: 10
   m_Name: NZWall
   m_TagString: Wall
@@ -1068,6 +1111,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5419950762903727907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653320094670658435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb8d6900da060e5428ca1515786a3790, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overlapCheckRadius: 0.1
 --- !u!1 &729709232340634519
 GameObject:
   m_ObjectHideFlags: 0
@@ -1080,6 +1136,7 @@ GameObject:
   - component: {fileID: 1518780757381302795}
   - component: {fileID: 159678708150879181}
   - component: {fileID: 7982111178563911954}
+  - component: {fileID: 4042528537038403252}
   m_Layer: 10
   m_Name: XWall
   m_TagString: Wall
@@ -1176,6 +1233,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4042528537038403252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729709232340634519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb8d6900da060e5428ca1515786a3790, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overlapCheckRadius: 0.1
 --- !u!1 &746409248224907349
 GameObject:
   m_ObjectHideFlags: 0
@@ -1564,7 +1634,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6812002121106099065}
   m_Layer: 0
-  m_Name: Room (14)
+  m_Name: NRoom
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2007,6 +2077,7 @@ GameObject:
   - component: {fileID: 5288967168847973813}
   - component: {fileID: 7303797629281204493}
   - component: {fileID: 6685515411510696016}
+  - component: {fileID: 3109819187274948577}
   m_Layer: 10
   m_Name: ZWall
   m_TagString: Wall
@@ -2103,6 +2174,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3109819187274948577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454623008292712655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb8d6900da060e5428ca1515786a3790, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overlapCheckRadius: 0.1
 --- !u!1 &1475878237126749399
 GameObject:
   m_ObjectHideFlags: 0
@@ -2113,7 +2197,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4009963803436387021}
   m_Layer: 0
-  m_Name: Room (13)
+  m_Name: NRoom
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2255,7 +2339,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5786599063991677511}
   m_Layer: 0
-  m_Name: Room (21)
+  m_Name: NRoom
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2570,6 +2654,7 @@ GameObject:
   - component: {fileID: 6900865108104182893}
   - component: {fileID: 6768038974621915093}
   - component: {fileID: 5010794253888645787}
+  - component: {fileID: 8060143858455154733}
   m_Layer: 10
   m_Name: XWall
   m_TagString: Wall
@@ -2666,6 +2751,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8060143858455154733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632796968926373113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb8d6900da060e5428ca1515786a3790, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overlapCheckRadius: 0.1
 --- !u!1 &1667281800325217817
 GameObject:
   m_ObjectHideFlags: 0
@@ -2816,7 +2914,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6862219329752461511}
   m_Layer: 0
-  m_Name: Room (26)
+  m_Name: NRoom
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4602,6 +4700,7 @@ GameObject:
   - component: {fileID: 5712072045152590337}
   - component: {fileID: 5178411717878610500}
   - component: {fileID: 406769095342256817}
+  - component: {fileID: 7599994021892318023}
   m_Layer: 10
   m_Name: NXWall
   m_TagString: Wall
@@ -4698,6 +4797,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7599994021892318023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2481697864622253605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb8d6900da060e5428ca1515786a3790, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overlapCheckRadius: 0.1
 --- !u!1 &2523779783767590716
 GameObject:
   m_ObjectHideFlags: 0
@@ -4976,7 +5088,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4543412831177410829}
   m_Layer: 0
-  m_Name: Room (19)
+  m_Name: NRoom
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5108,6 +5220,7 @@ GameObject:
   - component: {fileID: 2139298445191155222}
   - component: {fileID: 6940909701178541761}
   - component: {fileID: 6621666228267650445}
+  - component: {fileID: 471039799243149260}
   m_Layer: 10
   m_Name: NXWall
   m_TagString: Wall
@@ -5204,6 +5317,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &471039799243149260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2841406502153327749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb8d6900da060e5428ca1515786a3790, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overlapCheckRadius: 0.1
 --- !u!1 &2923086861816037230
 GameObject:
   m_ObjectHideFlags: 0
@@ -6163,6 +6289,7 @@ GameObject:
   - component: {fileID: 1637666269552786511}
   - component: {fileID: 6377221867341438221}
   - component: {fileID: 6847391873866738250}
+  - component: {fileID: 1455073022913963888}
   m_Layer: 10
   m_Name: ZWall
   m_TagString: Wall
@@ -6259,6 +6386,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1455073022913963888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3528488344271763085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb8d6900da060e5428ca1515786a3790, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overlapCheckRadius: 0.1
 --- !u!1 &3530411939968112252
 GameObject:
   m_ObjectHideFlags: 0
@@ -6269,7 +6409,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1297557278197346351}
   m_Layer: 0
-  m_Name: Room (29)
+  m_Name: NRoom
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6617,6 +6757,7 @@ GameObject:
   - component: {fileID: 8772251624820913360}
   - component: {fileID: 8250974090932871040}
   - component: {fileID: 5678130985298892465}
+  - component: {fileID: 3356281244809901300}
   m_Layer: 10
   m_Name: XWall
   m_TagString: Wall
@@ -6713,6 +6854,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3356281244809901300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3759805463334306166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb8d6900da060e5428ca1515786a3790, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overlapCheckRadius: 0.1
 --- !u!1 &3849649971602604618
 GameObject:
   m_ObjectHideFlags: 0
@@ -6725,6 +6879,7 @@ GameObject:
   - component: {fileID: 4625895156457378940}
   - component: {fileID: 185786169594126995}
   - component: {fileID: 2408911780524206245}
+  - component: {fileID: 7106346026105216535}
   m_Layer: 10
   m_Name: ZWall
   m_TagString: Wall
@@ -6821,6 +6976,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7106346026105216535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3849649971602604618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb8d6900da060e5428ca1515786a3790, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overlapCheckRadius: 0.1
 --- !u!1 &3878689237766163985
 GameObject:
   m_ObjectHideFlags: 0
@@ -6995,7 +7163,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2479503667797525652}
   m_Layer: 0
-  m_Name: Room (23)
+  m_Name: NRoom
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7031,6 +7199,7 @@ GameObject:
   - component: {fileID: 6871661664690178141}
   - component: {fileID: 5715360558221003915}
   - component: {fileID: 5422205176148567611}
+  - component: {fileID: 1737728775053675196}
   m_Layer: 10
   m_Name: XWall
   m_TagString: Wall
@@ -7127,6 +7296,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1737728775053675196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4012290265528269079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb8d6900da060e5428ca1515786a3790, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overlapCheckRadius: 0.1
 --- !u!1 &4047886786758360319
 GameObject:
   m_ObjectHideFlags: 0
@@ -7419,6 +7601,7 @@ GameObject:
   - component: {fileID: 6484663055807655359}
   - component: {fileID: 9017550374884701794}
   - component: {fileID: 6904596142026698123}
+  - component: {fileID: 3336731985916875280}
   m_Layer: 10
   m_Name: ZWall
   m_TagString: Wall
@@ -7515,6 +7698,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3336731985916875280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4244493415114636588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb8d6900da060e5428ca1515786a3790, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overlapCheckRadius: 0.1
 --- !u!1 &4287309853451896138
 GameObject:
   m_ObjectHideFlags: 0
@@ -7527,6 +7723,7 @@ GameObject:
   - component: {fileID: 5257461348256677756}
   - component: {fileID: 7843893599221604874}
   - component: {fileID: 1122867643951964221}
+  - component: {fileID: 480952281006113293}
   m_Layer: 10
   m_Name: NXWall
   m_TagString: Wall
@@ -7623,6 +7820,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &480952281006113293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4287309853451896138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb8d6900da060e5428ca1515786a3790, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overlapCheckRadius: 0.1
 --- !u!1 &4291482040926987801
 GameObject:
   m_ObjectHideFlags: 0
@@ -8052,7 +8262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3997189342241957726}
   m_Layer: 0
-  m_Name: Room (27)
+  m_Name: NRoom
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8194,7 +8404,7 @@ GameObject:
   m_Component:
   - component: {fileID: 618337957813224009}
   m_Layer: 0
-  m_Name: Room (16)
+  m_Name: NRoom
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8510,7 +8720,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1922509471892254072}
   m_Layer: 0
-  m_Name: Room (17)
+  m_Name: NRoom
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8922,6 +9132,7 @@ GameObject:
   - component: {fileID: 4754970039331493816}
   - component: {fileID: 4274226710219818091}
   - component: {fileID: 4149898956480671936}
+  - component: {fileID: 8226149196872684485}
   m_Layer: 10
   m_Name: ZWall
   m_TagString: Wall
@@ -9018,6 +9229,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8226149196872684485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5066043718513562115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb8d6900da060e5428ca1515786a3790, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overlapCheckRadius: 0.1
 --- !u!1 &5067910433758049166
 GameObject:
   m_ObjectHideFlags: 0
@@ -9302,7 +9526,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5904465554912494433}
   m_Layer: 0
-  m_Name: Room (24)
+  m_Name: NRoom
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9857,7 +10081,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6133119632304818812}
   m_Layer: 0
-  m_Name: Room (28)
+  m_Name: NRoom
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9891,7 +10115,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7995658559498315631}
   m_Layer: 0
-  m_Name: Room (18)
+  m_Name: NRoom
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10021,6 +10245,7 @@ GameObject:
   - component: {fileID: 8423772048310101472}
   - component: {fileID: 7423027816141129072}
   - component: {fileID: 7905734092651086468}
+  - component: {fileID: 7695886005977924772}
   m_Layer: 10
   m_Name: NZWall
   m_TagString: Wall
@@ -10117,6 +10342,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7695886005977924772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6190456644929830151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb8d6900da060e5428ca1515786a3790, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overlapCheckRadius: 0.1
 --- !u!1 &6226763606918909850
 GameObject:
   m_ObjectHideFlags: 0
@@ -10127,7 +10365,7 @@ GameObject:
   m_Component:
   - component: {fileID: 665321167170544579}
   m_Layer: 0
-  m_Name: Room (22)
+  m_Name: NRoom
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10303,6 +10541,7 @@ GameObject:
   - component: {fileID: 6011131378935237052}
   - component: {fileID: 1019834045991992250}
   - component: {fileID: 6121674251696931591}
+  - component: {fileID: 4090429749331891502}
   m_Layer: 10
   m_Name: ZWall
   m_TagString: Wall
@@ -10399,6 +10638,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4090429749331891502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6361408416122492722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb8d6900da060e5428ca1515786a3790, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overlapCheckRadius: 0.1
 --- !u!1 &6456039373261591736
 GameObject:
   m_ObjectHideFlags: 0
@@ -10727,6 +10979,7 @@ GameObject:
   - component: {fileID: 7121649990939225472}
   - component: {fileID: 6176560088834655712}
   - component: {fileID: 5166104596028125465}
+  - component: {fileID: 7566291973253826407}
   m_Layer: 10
   m_Name: XWall
   m_TagString: Wall
@@ -10823,6 +11076,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7566291973253826407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6734670109111839953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb8d6900da060e5428ca1515786a3790, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overlapCheckRadius: 0.1
 --- !u!1 &6766413589643943418
 GameObject:
   m_ObjectHideFlags: 0
@@ -10833,7 +11099,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3483751215869495372}
   m_Layer: 0
-  m_Name: Room (11)
+  m_Name: NRoom
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11149,6 +11415,7 @@ GameObject:
   - component: {fileID: 4771015634575954439}
   - component: {fileID: 359493640370070235}
   - component: {fileID: 6911599944125309527}
+  - component: {fileID: 1310007821939393632}
   m_Layer: 10
   m_Name: NXWall
   m_TagString: Wall
@@ -11245,6 +11512,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1310007821939393632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6823268850587603963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb8d6900da060e5428ca1515786a3790, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overlapCheckRadius: 0.1
 --- !u!1 &6829792531653906347
 GameObject:
   m_ObjectHideFlags: 0
@@ -11429,6 +11709,7 @@ GameObject:
   - component: {fileID: 4876352932106738063}
   - component: {fileID: 348058462608211119}
   - component: {fileID: 4724334162371754303}
+  - component: {fileID: 8462147011739753234}
   m_Layer: 10
   m_Name: XWall
   m_TagString: Wall
@@ -11525,6 +11806,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8462147011739753234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7000169611942308495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb8d6900da060e5428ca1515786a3790, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overlapCheckRadius: 0.1
 --- !u!1 &7013468091763783172
 GameObject:
   m_ObjectHideFlags: 0
@@ -11937,6 +12231,7 @@ GameObject:
   - component: {fileID: 1571489918831094925}
   - component: {fileID: 936771807596865563}
   - component: {fileID: 479019500197521775}
+  - component: {fileID: 3596472862070165226}
   m_Layer: 10
   m_Name: NZWall
   m_TagString: Wall
@@ -12033,6 +12328,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3596472862070165226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7248743268055399816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb8d6900da060e5428ca1515786a3790, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overlapCheckRadius: 0.1
 --- !u!1 &7255896984522633920
 GameObject:
   m_ObjectHideFlags: 0
@@ -12983,6 +13291,7 @@ GameObject:
   - component: {fileID: 5566052023928514530}
   - component: {fileID: 9160062050962720101}
   - component: {fileID: 367822085876811275}
+  - component: {fileID: 3641775852476030662}
   m_Layer: 10
   m_Name: NZWall
   m_TagString: Wall
@@ -13079,6 +13388,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3641775852476030662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8199544975701624528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb8d6900da060e5428ca1515786a3790, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overlapCheckRadius: 0.1
 --- !u!1 &8290477449897509533
 GameObject:
   m_ObjectHideFlags: 0
@@ -14254,6 +14576,7 @@ GameObject:
   - component: {fileID: 2282092654217799022}
   - component: {fileID: 5772338523021982337}
   - component: {fileID: 8581197713858479874}
+  - component: {fileID: 4580484260386985200}
   m_Layer: 10
   m_Name: NZWall
   m_TagString: Wall
@@ -14350,6 +14673,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4580484260386985200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8638666082220342298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb8d6900da060e5428ca1515786a3790, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overlapCheckRadius: 0.1
 --- !u!1 &8706195665352053347
 GameObject:
   m_ObjectHideFlags: 0
@@ -14532,7 +14868,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5314214133699167103}
   m_Layer: 0
-  m_Name: Room (12)
+  m_Name: NRoom
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

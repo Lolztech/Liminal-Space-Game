@@ -74,6 +74,7 @@ public class GeneratorTest : MonoBehaviour
     void Start()
     {
         InitializeRoomPrefabs();
+        Debug.Log("After InitializeRoomPrefabs: " + Time.realtimeSinceStartup);
         Generate();
     }
 
@@ -95,6 +96,7 @@ public class GeneratorTest : MonoBehaviour
     }
 
     void Generate(){
+        Debug.Log("Starting Generate: " + Time.realtimeSinceStartup);
         if (seed == 0) {
         seed = System.DateTime.Now.Millisecond;
         }
@@ -103,10 +105,15 @@ public class GeneratorTest : MonoBehaviour
         rooms = new List<Room>();
 
         PlaceSpecialRooms();
+        Debug.Log("After PlaceSpecialRooms: " + Time.realtimeSinceStartup);
         PlaceRooms();
+        Debug.Log("After PlaceRooms: " + Time.realtimeSinceStartup);
         Triangulate();
+        Debug.Log("After Triangulate: " + Time.realtimeSinceStartup);
         CreateHallways();
+        Debug.Log("After CreateHallways: " + Time.realtimeSinceStartup);
         PathfindHallways();
+        Debug.Log("After PathfindHallways: " + Time.realtimeSinceStartup);
 
     }
 
@@ -192,32 +199,29 @@ public class GeneratorTest : MonoBehaviour
                     // Instantiate the special room prefab
                     GameObject roomInstance = Instantiate(specialRoom.Prefab, new Vector3(location.x, 0, location.y), Quaternion.identity);
 
-                    // Iterate through each sub-room in the prefab
-                    foreach (Transform subRoom in roomInstance.transform)
-                    {
-                        if (subRoom.name.StartsWith("Room"))
-                        {
-                            // Calculate the grid position for the sub-room
-                            Vector2Int subRoomPos = new Vector2Int(
-                                Mathf.RoundToInt(subRoom.position.x),
-                                Mathf.RoundToInt(subRoom.position.z)
-                            );
+                    // Calculate the prefab's center
+                    Vector2Int prefabCenter = new Vector2Int(
+                        Mathf.RoundToInt(location.x + (specialRoom.RoomSize.x / 2)),
+                        Mathf.RoundToInt(location.y + (specialRoom.RoomSize.y / 2))
+                    );
 
-                            // Treat the sub-room as a separate room
-                            structureInstances[subRoomPos] = subRoom.gameObject;
-                            grid[subRoomPos] = CellType.Room;
+                    // Add the prefab's center as a single room node for triangulation
+                    rooms.Add(new Room(prefabCenter, Vector2Int.one));
+
+                    // Update the grid for the entire prefab span
+                    for (int x = 0; x < specialRoom.RoomSize.x; x++)
+                    {
+                        for (int y = 0; y < specialRoom.RoomSize.y; y++)
+                        {
+                            grid[new Vector2Int(location.x + x, location.y + y)] = CellType.Room;
                         }
                     }
-
-                    // Remove walls for modular sub-rooms
-                    RemoveAdjacentWalls();
 
                     placedCount++;
                 }
             }
         }
     }
-
 
 
 
@@ -370,26 +374,6 @@ public class GeneratorTest : MonoBehaviour
         {
             // Instantiate the prefab
             GameObject roomInstance = Instantiate(premadePrefab, new Vector3(location.x, 0, location.y), Quaternion.identity);
-
-            // Iterate through each sub-room in the prefab
-            foreach (Transform subRoom in roomInstance.transform)
-            {
-                if (subRoom.name.StartsWith("Room"))
-                {
-                    // Calculate the grid position for the sub-room
-                    Vector2Int subRoomPos = new Vector2Int(
-                        Mathf.RoundToInt(subRoom.position.x),
-                        Mathf.RoundToInt(subRoom.position.z)
-                    );
-
-                    // Treat the sub-room as a separate room
-                    structureInstances[subRoomPos] = subRoom.gameObject;
-                    grid[subRoomPos] = CellType.Room;
-                }
-            }
-
-            // Remove walls for modular sub-rooms
-            RemoveAdjacentWalls();
         }
         else
         {

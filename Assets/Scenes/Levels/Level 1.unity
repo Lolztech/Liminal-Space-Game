@@ -3468,7 +3468,7 @@ MonoBehaviour:
   StarterRoomSize: {x: 6, y: 6}
   WinRoomSize: {x: 6, y: 6}
   EnemyRoomSize: {x: 1, y: 1}
-  ItemRoomSize: {x: 2, y: 2}
+  ItemRoomSize: {x: 6, y: 6}
   StarterRoomPrefab: {fileID: 8093226780969867881, guid: ed385063caf25614384a676601cd9498, type: 3}
   ItemRoomPrefab: {fileID: 8337678869357500087, guid: 23b597031a57fb847baab04a00a2fb52, type: 3}
   EnemySpawnRoomPrefab: {fileID: 1798954966950097994, guid: 163c76bedd3a18c449fd6817bb8e7f52, type: 3}

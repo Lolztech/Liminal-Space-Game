@@ -98,6 +98,7 @@ public class Generator : MonoBehaviour
         }
 
         InitializeRoomPrefabs();
+        Debug.Log("After InitializeRoomPrefabs: " + Time.realtimeSinceStartup);
         var spawnInfo = Generate();
         // Bake NavMeshSurface after level is generated
         GenerateMesh();
@@ -127,6 +128,7 @@ public class Generator : MonoBehaviour
     }
 
     ((Vector2Int, Vector2Int), (Vector2Int, Vector2Int)[]) Generate(){
+        Debug.Log("Starting Generate: " + Time.realtimeSinceStartup);
         if (seed == 0) {
         seed = System.DateTime.Now.Millisecond;
         }
@@ -135,13 +137,21 @@ public class Generator : MonoBehaviour
         rooms = new List<Room>();
 
         var pSpawnInfo = PlaceStarterRoom();
+        Debug.Log("After PlaceStarterRoom: " + Time.realtimeSinceStartup);
         PlaceWinRoom();
+        Debug.Log("After PlaceWinRoom: " + Time.realtimeSinceStartup);
         var eSpawnInfo = PlaceEnemyRoom();
+        Debug.Log("After PlaceEnemyRoom: " + Time.realtimeSinceStartup);
         PlaceItemRoom();
+        Debug.Log("After PlaceItemRoom: " + Time.realtimeSinceStartup);
         PlaceRooms();
+        Debug.Log("After PlaceRooms: " + Time.realtimeSinceStartup);
         Triangulate();
+        Debug.Log("After Triangulate: " + Time.realtimeSinceStartup);
         CreateHallways();
+        Debug.Log("After CreateHallways: " + Time.realtimeSinceStartup);
         PathfindHallways();
+        Debug.Log("After PathfindHallways: " + Time.realtimeSinceStartup);
 
         return (pSpawnInfo, eSpawnInfo);
     }

@@ -1436,7 +1436,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6563822204424097304}
   m_Layer: 0
-  m_Name: Room (35)
+  m_Name: NRoom
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1470,7 +1470,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5461842784924700330}
   m_Layer: 0
-  m_Name: Room (3)
+  m_Name: NRoom
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2859,7 +2859,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3987824348535778337}
   m_Layer: 0
-  m_Name: Room (16)
+  m_Name: NRoom
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4695,7 +4695,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6885964636343040681}
   m_Layer: 0
-  m_Name: Room (32)
+  m_Name: NRoom
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6650,7 +6650,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2191062921480998970}
   m_Layer: 0
-  m_Name: Room (11)
+  m_Name: NRoom
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6716,7 +6716,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5933906192883865615}
   m_Layer: 0
-  m_Name: Room (30)
+  m_Name: NRoom
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11455,7 +11455,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1303756458124030224}
   m_Layer: 0
-  m_Name: Room (6)
+  m_Name: NRoom
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11684,7 +11684,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2327616089921330335}
   m_Layer: 0
-  m_Name: Room (33)
+  m_Name: NRoom
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11998,7 +11998,7 @@ GameObject:
   m_Component:
   - component: {fileID: 428273519796985503}
   m_Layer: 0
-  m_Name: Room (26)
+  m_Name: NRoom
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12172,7 +12172,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5557972607266296207}
   m_Layer: 0
-  m_Name: Room (31)
+  m_Name: NRoom
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12238,7 +12238,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1326291058135752878}
   m_Layer: 0
-  m_Name: Room (20)
+  m_Name: NRoom
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12886,7 +12886,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6109130973366068802}
   m_Layer: 0
-  m_Name: Room (18)
+  m_Name: NRoom
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14130,7 +14130,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2185555372903841008}
   m_Layer: 0
-  m_Name: Room (17)
+  m_Name: NRoom
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14324,7 +14324,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4320109992330082953}
   m_Layer: 0
-  m_Name: Room (27)
+  m_Name: NRoom
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14422,7 +14422,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3363295604586503168}
   m_Layer: 0
-  m_Name: Room (12)
+  m_Name: NRoom
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14799,7 +14799,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1624456875810772063}
   m_Layer: 0
-  m_Name: Room (13)
+  m_Name: NRoom
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

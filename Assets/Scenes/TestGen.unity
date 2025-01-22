@@ -1770,7 +1770,7 @@ MonoBehaviour:
   - RoomName: Item Room
     Prefab: {fileID: 523497346010267984, guid: 7e3c5f619924e4bb2b38b17f5d67a9e3, type: 3}
     RoomSize: {x: 6, y: 6}
-    RoomCount: 5
+    RoomCount: 25
   - RoomName: Enemy Room
     Prefab: {fileID: 523497346010267984, guid: d672b6e40869341ab8338a0e305f3137, type: 3}
     RoomSize: {x: 1, y: 1}
@@ -1778,8 +1778,6 @@ MonoBehaviour:
   PremadeRoomPrefabs:
   - RoomSize: {x: 4, y: 3}
     Prefab: {fileID: 4301583570072907803, guid: 7a7b880f79b2ca9478b9239bc30e01d2, type: 3}
-  - RoomSize: {x: 6, y: 6}
-    Prefab: {fileID: 4885880936789461016, guid: fdcd0e4fd63ab3a4197a2600e5c96d55, type: 3}
   - RoomSize: {x: 1, y: 3}
     Prefab: {fileID: 4683230734785518128, guid: 5a50d2f3cef53db4781d29f4bb79b7af, type: 3}
 --- !u!1 &984092429
