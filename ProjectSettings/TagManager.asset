@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags:
   - PlayerObj
   - Wall
@@ -12,6 +12,7 @@ TagManager:
   - PlayerUI
   - UIManager
   - HeldItem
+  - PlayerCam
   layers:
   - Default
   - TransparentFX
@@ -24,7 +25,7 @@ TagManager:
   - whatIsPlayer
   - Ceiling
   - Wall
-  - 
+  - test
   - 
   - 
   - 
@@ -49,3 +50,5 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  m_RenderingLayers:
+  - Default
