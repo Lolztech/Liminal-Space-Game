@@ -1718,6 +1718,7 @@ GameObject:
   m_Component:
   - component: {fileID: 959897718}
   - component: {fileID: 959897719}
+  - component: {fileID: 959897720}
   m_Layer: 0
   m_Name: Generator
   m_TagString: Untagged
@@ -1756,6 +1757,7 @@ MonoBehaviour:
   size: {x: 70, y: 70}
   roomCount: 300
   roomMaxSize: {x: 6, y: 6}
+  surface: {fileID: 0}
   RoomPrefab: {fileID: 4907469481428772007, guid: b825f2c1cf4eefb4a893d41ddd58c429, type: 3}
   HallwayPrefab: {fileID: 4844219089626658800, guid: 2a6cef81b6f9d8f44af8430ef73d3908, type: 3}
   SpecialRooms:
@@ -1767,19 +1769,51 @@ MonoBehaviour:
     Prefab: {fileID: 523497346010267984, guid: 59e75e42d263f477b808d411e2d8bb34, type: 3}
     RoomSize: {x: 6, y: 6}
     RoomCount: 1
-  - RoomName: Item Room
-    Prefab: {fileID: 523497346010267984, guid: 7e3c5f619924e4bb2b38b17f5d67a9e3, type: 3}
-    RoomSize: {x: 6, y: 6}
-    RoomCount: 25
   - RoomName: Enemy Room
     Prefab: {fileID: 523497346010267984, guid: d672b6e40869341ab8338a0e305f3137, type: 3}
     RoomSize: {x: 1, y: 1}
     RoomCount: 20
+  - RoomName: Item Room
+    Prefab: {fileID: 523497346010267984, guid: 7e3c5f619924e4bb2b38b17f5d67a9e3, type: 3}
+    RoomSize: {x: 6, y: 6}
+    RoomCount: 25
   PremadeRoomPrefabs:
   - RoomSize: {x: 4, y: 3}
     Prefab: {fileID: 4301583570072907803, guid: 7a7b880f79b2ca9478b9239bc30e01d2, type: 3}
   - RoomSize: {x: 1, y: 3}
     Prefab: {fileID: 4683230734785518128, guid: 5a50d2f3cef53db4781d29f4bb79b7af, type: 3}
+--- !u!114 &959897720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 959897716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  m_UseGeometry: 0
+  m_DefaultArea: 0
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.05
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 166f38420e66b47e4a33beb360e0d53e, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &984092429
 GameObject:
   m_ObjectHideFlags: 0

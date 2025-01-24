@@ -33,6 +33,8 @@ public class GeneratorTest : MonoBehaviour
     [SerializeField] private Vector2Int size;
     [SerializeField] private int roomCount;
     [SerializeField] private Vector2Int roomMaxSize;
+    [SerializeField] private NavMeshSurface surface;
+
 
     // Prefabs for Room Types
     [Header("Room Type Prefabs")]
@@ -76,6 +78,7 @@ public class GeneratorTest : MonoBehaviour
         InitializeRoomPrefabs();
         Debug.Log("After InitializeRoomPrefabs: " + Time.realtimeSinceStartup);
         Generate();
+        GenerateMesh();
     }
 
     private void InitializeRoomPrefabs()
@@ -93,6 +96,11 @@ public class GeneratorTest : MonoBehaviour
                 Debug.LogWarning($"Duplicate entry for room size {entry.RoomSize} in PremadeRoomPrefabs.");
             }
         }
+    }
+
+    void GenerateMesh() {
+        surface = GetComponent<NavMeshSurface>();
+        surface.BuildNavMesh();
     }
 
     void Generate(){
